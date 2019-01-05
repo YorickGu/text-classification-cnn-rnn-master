@@ -5,6 +5,7 @@ from __future__ import print_function
 import os
 import tensorflow as tf
 import tensorflow.contrib.keras as kr
+import unicode as unicode
 
 from cnn_model import TCNNConfig, TextCNN
 from data.cnews_loader import read_category, read_vocab
